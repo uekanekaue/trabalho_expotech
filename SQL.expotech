@@ -1,0 +1,19 @@
+/*CREATE TABLE IF NOT EXISTS livros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    paginas INT,
+    ano_publicacao INT,
+    status VARCHAR(50) DEFAULT 'Disponivel',
+    cliente_id INT,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id) ON DELETE SET NULL
+);*/
+
+/*CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    telefone VARCHAR(20)
+);*/
+
+/*ALTER TABLE livros
+ADD cliente_id INT;*/
